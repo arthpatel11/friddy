@@ -1,0 +1,255 @@
+@media only screen and (width > 1920px) {}
+
+@media (1500px <=width <=1919px) {}
+
+@media (1400px <=width <=1499px) {}
+
+@media (width <=1399px) {
+    .friddy-header {
+        width: 100%;
+        top: 0;
+        max-width: none;
+        padding: 32px;
+    }
+    .friddy-header .navbar {
+        max-width: 1136px;
+        margin: auto;
+        position: initial;
+        gap: 52px;
+    }
+    .navbar-collapse.collapsing::before,
+    .navbar-collapse.collapse::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(0, 0, 0);
+        z-index: -1;
+        border-bottom: 1px solid rgb(255 255 255 / 20%);
+    }
+    .banner {
+        min-height: 90vh;
+    }
+    .banner-sub-title {
+        font-size: 24px;
+    }
+    .banner-title {
+        font-size: 95px;
+    }
+    .banner-box .text-18px {
+        font-size: 14px !important;
+    }
+    .footer-row {
+        padding: 60px 30px;
+    }
+}
+
+@media screen and (width <=1199px) {
+    .payment-section::before {
+        width: 100%;
+    }
+    .hard-section {
+        padding: 200px 0px;
+    }
+}
+
+@media screen and (width <=991px) {
+    .top-bg-effect {
+        width: 100%;
+    }
+    .hard-section {
+        padding: 0px 0px 150px;
+    }
+    .hard-map {
+        position: relative;
+        max-width: 100%;
+        right: 0;
+    }
+    .hard-data {
+        max-width: 500px;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .global-section {
+        min-height: 80vh;
+    }
+    .global-row {
+        gap: 60px;
+        padding: 0px 30px;
+    }
+    .global-data {
+        width: calc(100% - 330px);
+    }
+    .footer-row {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+    .footer-leftside {
+        text-align: center;
+        margin: auto;
+    }
+    .footer-leftside>aside {
+        justify-content: center;
+    }
+    .friddy-tab-box {
+        padding: 0px 30px;
+    }
+    .comn-eight-box {
+        width: 100%;
+    }
+    .instant-box-row {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .friddy-header .navbar {
+        gap: 32px;
+    }
+    .coupons-row {
+        gap: 120px;
+    }
+}
+
+@media screen and (width <=767px) {
+    .friddy-header {
+        padding: 20px;
+    }
+    .banner-box::before {
+        width: 100%;
+    }
+    .banner-title {
+        font-size: 70px;
+    }
+    .banner-sub-title {
+        font-size: 20px;
+    }
+    .banner-box .text-18px {
+        font-size: 13px !important;
+    }
+    .payment-section {
+        margin-bottom: 200px;
+    }
+    .friddy-tab-box .nav {
+        flex-wrap: nowrap;
+        overflow-y: hidden;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    .friddy-tab-box .nav .nav-item {
+        flex-shrink: 0;
+    }
+    .friddy-tab-box .tab-pane {
+        padding: 40px 0px;
+    }
+    .tab-title {
+        font-size: 20px;
+    }
+    .tab-para {
+        font-size: 14px;
+    }
+    .global-data .comn-title,
+    .comn-title {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .eight-box-section {
+        padding: 50px 0px;
+    }
+    .comn-eight-box {
+        overflow-x: auto;
+    }
+    .grade-box {
+        width: 633px;
+    }
+    .settle-box {
+        width: 800px;
+    }
+    .instant-box {
+        width: 480px;
+    }
+    .Checkout-text {
+        white-space: nowrap;
+    }
+    .coupons-row {
+        gap: 50px;
+    }
+    .checkout-row {
+        width: 500px;
+    }
+    .powerful-box {
+        width: 540px;
+    }
+    .bottom-rightside {
+        width: 315px;
+    }
+    .role-box {
+        width: 425px;
+    }
+    .accessible-row {
+        gap: 33px;
+        padding: 0px;
+        margin-block: 30px;
+    }
+    .global-data {
+        width: 100%;
+    }
+    .hard-row {
+        justify-content: center;
+    }
+    .hard-map {
+        max-width: none;
+        width: 895px;
+        flex-shrink: 0;
+    }
+    .global-data .comn-title {
+        margin-bottom: 10px;
+    }
+    .global-data .comn-sub-title {
+        font-size: 14px;
+    }
+    .global-cards-row {
+        margin: auto;
+    }
+    .global-data {
+        text-align: center;
+    }
+    .footer-rightside {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-box ul {
+        gap: 8px;
+    }
+    .footer-box ul>li>a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .footer-box ul>li>a>span {
+        font-size: 10px;
+    }
+    .friddy-header .navbar,
+    .friddy-header .navbar .navbar-nav {
+        gap: 20px;
+    }
+}
+
+@media screen and (width <=575px) {
+    .personal-leftside,
+    .personal-rightside {
+        width: 100%;
+    }
+    .personal-section::before {
+        width: 100%;
+    }
+    .footer-rightside>* {
+        flex: 1 0 100px;
+    }
+    .accessible-row {
+        gap: 40px;
+    }
+    .top-bg-effect {
+        left: -150px;
+    }
+}
